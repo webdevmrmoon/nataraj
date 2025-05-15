@@ -3437,6 +3437,10 @@ figure.image {
 }
 
 
+.listSlider.owl-carousel {
+    width: 70%;
+    margin: auto;
+}
 .listSlider .item {
     padding: 12px;
 }
