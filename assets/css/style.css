@@ -2905,6 +2905,7 @@ figure.image {
     box-shadow: 0px 0px 20px #60606033;
     border-radius: 20px;
     text-align: center;
+    padding-bottom: 22px;
 }
 .pricing-block-two .inner-box .content-column .inner-column::before {
     content: "";
@@ -2927,6 +2928,9 @@ figure.image {
     font-weight: 600;
     color: #a22024;
     margin-bottom: 7px;
+}
+.pricing-block-two .inner-box .content-column .inner-column p {
+    font-size: 14px;
 }
 .pricing-block-two .inner-box .content-column .inner-column span {
     color: #f7921e;
@@ -3104,13 +3108,15 @@ figure.image {
     margin-bottom: 20px;
     border-radius: 10px;
     margin: 0px;
-    max-height: 250px;
+    height: 250px;
     display: flex;
     align-items: center;
 }
 .mediaGalleryImgCard img{
     width: 100%;
     border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 .galleryTitle{
     text-align: center;
