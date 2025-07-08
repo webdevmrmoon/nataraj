@@ -35,6 +35,8 @@
     outline: none;
     border: none;
     background-color: transparent;
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 900;
   }
   
   .lg-actions .lg-next.disabled, .lg-actions .lg-prev.disabled {
@@ -51,7 +53,7 @@
   }
   
   .lg-actions .lg-next:before {
-    content: "\e095";
+    content: "\f061";
   }
   
   .lg-actions .lg-prev {
@@ -59,7 +61,7 @@
   }
   
   .lg-actions .lg-prev:after {
-    content: "\e094";
+    content: "\f060";
   }
   
   @-webkit-keyframes lg-right-end {
