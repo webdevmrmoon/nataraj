@@ -2960,6 +2960,7 @@ figure.image {
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .imgMail img {
     width: 100%;
